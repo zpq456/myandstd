@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.ac.hansung.myapplication"
+
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <!--android:configChanges="orientation"
+        AsyncTask에서 충돌을 막기위함 (화면모드 전환을 액티비티에서 알아서 하게 만듬)-->
+        <activity
+<<<<<<< HEAD
+            android:configChanges="orientation"
+            android:name=".webcon"
+=======
+            android:name=".websub"
+>>>>>>> master
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".WinterMainActivity"/>
+        <activity android:name=".Stopwatch"/>
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>
