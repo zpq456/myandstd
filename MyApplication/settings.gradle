@@ -1,1 +1,1 @@
-include ':app', ':potogallery', ':geoquiz'
+include ':app', ':potogallery', ':geoquiz', ':criminallntent'
